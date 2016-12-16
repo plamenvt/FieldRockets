@@ -1,0 +1,115 @@
+body{
+      font-family: "Roboto", sans-serif;
+}
+
+#page-heading{
+    height: 200px;
+    background-color: #89B860;
+    text-align: center;
+    padding: 30px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+.img{
+    height: 300px;
+}
+    
+.link:hover {
+    color: red;
+}
+
+.link {
+    color: #43A4B9
+}
+
+.card.large {
+    width: 500px;
+    display: inline-block;
+    margin: 100px;
+}
+
+.card.large:hover{
+    background-color: #CFD2D3
+}
+
+.btn {
+    background-color: #89B860;
+}
+
+.btn:hover, .btn-flat:hover {
+    background-color:#3DBB62;
+    color: white;
+}
+
+
+/* Footer`s styles */
+footer.page-footer {
+    background-color: #CFD2D3;
+}
+
+h5{
+    font-size: 1.3rem;  
+}
+
+.container{
+    width: 85%;
+     
+}
+
+    h5 > a, li > a {
+    color:#43A4B9;
+}
+
+   h5 > a:hover, li > a:hover {
+    color: red;
+}
+
+.footer-copyright {
+    background-color: black
+    !important;
+    font-size: 12px;
+    height: 130px !important;
+    line-height: 30px !important;
+    
+}
+
+.logos {
+   display: inline-block;
+   margin: 3px;
+   background-image: url(http://ui.telerikacademy.com/Content/Images/social-sprite-icons.png);
+   background-size: initial;
+   background-repeat-x: initial;
+   background-repeat-y: initial;
+   background-attachment: initial;
+   background-origin: initial;
+   background-clip: initial;
+   background-color: initial;
+   width: 37px;
+   height: 35px;
+}
+
+#logo2 {
+    background-position: 0 175px; 
+}
+
+
+#logo3 {
+    background-position: 0 140px; 
+}
+
+#logo4 {
+    background-position: 0 105px; 
+}
+
+
+#logo5 {
+    background-position: 0 70px; 
+}
+
+
+#logo6 {
+    background-position: 0 35px; 
+}
