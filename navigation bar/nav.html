@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <style>
+        #nav-heading {
+            height: 80px;
+            background-color:darkgray;
+        }
+        #logo {
+            max-width: 18%;
+            max-height: 18%;
+        }
+        header ul li a{
+            font-size: small;
+        }
+        .dropdown-content li a{
+            color: #5CE500;
+            font-size: small;
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+<div id="root">
+    <header>
+        <nav id="MainNavMobile" class="nav-extended">
+            <div id="nav-heading">
+                <div class="nav-wrapper">
+                    <a href="http://ui.telerikacademy.com/" class="navbar-brand">
+                    <img id="logo" src="https://telerikacademy.com/Content/Images/EarlyAdmission/telerik-academy-logo-nav.png" alt="Alternate Text">
+                    </a>
+                    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li>
+                            <a href="#">
+                            <li class="dropdown">
+                                <a class="dropdown-button" href="#!" data-activates="dropdown-search">
+                                Потребител
+                                <i class="material-icons right">arrow_drop_down</i>
+                                    </a>
+                            </li></a>
+                        </li>
+                        <li class="nav-search"><a href="#"><i class="material-icons">search</i></a></li>
+                    </ul>
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li><a class="dropdown-button" href="#!" data-activates="dropdown-academy">Академия<i class="material-icons right">arrow_drop_down</i></a></li>
+                        <li><a class="dropdown-button" href="#!" data-activates="dropdown-courses">Курсове и инициативи<i class="material-icons right">arrow_drop_down</i></a></li>
+                        <li><a class="dropdown-button" href="#!" data-activates="dropdown-forum">Форум<i class="material-icons right">arrow_drop_down</i></a></li>
+                        <li><a class="dropdown-button" href="#!" data-activates="dropdown-help">Помощ<i class="material-icons right">arrow_drop_down</i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <ul id="dropdown-search" class="dropdown-content">
+            <li><a href="/Users/Auth/Login?ReturnURL=/Courses/Courses/Details/393" id="EntranceButton" class="entranceButton" rel="nofollow">Вход</a></li>
+            <li><a href="/Users/Auth/Registration" class="entranceButton" rel="nofollow">Регистрация</a></li>
+            <li><a href="/Users/Auth/FacebookLogin" id="FbLogin" class="entranceButton" rel="nofollow">Вход с Facebook</a></li>
+        </ul>
+        <ul id="dropdown-academy" class="dropdown-content">
+            <li><a href="/SoftwareAcademy/Candidate">Кандидатстване</a></li>
+            <li><a href="/SoftwareAcademy/Candidate/ExamDateSelect">Входен изпит</a></li>
+            <li><a href="/Courses/CourseTracks/List">Специалности</a></li>
+        </ul>
+        <ul id="dropdown-courses" class="dropdown-content">
+            <li><a href="/Courses/Courses/List">Всички курсове</a></li>
+            <li><a href="http://academy.telerik.com/academy/about">Софтуерна Академия</a></li>
+            <li><a href="http://www.telerik.com/telerik-digital-marketing-course">Дигитална Академия</a></li>
+            <li> <a href="http://academy.telerik.com/school-academy/about">Училищна академия</a></li>
+            <li><a href="http://academy.telerik.com/algoacademy/home">Алго Академия</a></li>
+            <li> <a href="http://telerik-kids.com/">Детска Академия</a></li>
+        </ul>
+        <ul id="dropdown-forum" class="dropdown-content">
+            <li><a href="/Forum/Home">Начало</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="/Forum/Category/14/important-announcements">Важни съобщения</a></li>
+            <li><a href="/Forum/Category/10/telerik-software-academy">Софтуерна академия</a></li>
+            <li><a href="/Forum/Category/13/qa-academy">QA академия</a></li>
+            <li><a href="/Forum/Category/12/telerik-school-academy">Училищна академия</a></li>
+            <li><a href="/Forum/Category/3/algo-academy">Алго академия</a></li>
+            <li><a href="/Forum/Category/11/kids-academy-programirane-za-deca">Детска академия</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="/Forum/Category/1/csharp-programming">C# програмиране</a></li>
+            <li><a href="/Forum/Category/2/front-end-development">Уеб Front-end програмиране</a></li>
+            <li><a href="/Forum/Category/8/web-development">Web Development</a></li>
+            <li><a href="/Forum/Category/9/mobile-development">Mobile Development</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="/Forum/Category/5/events-and-competitions">Събития и конкурси</a></li>
+            <li><a href="/Forum/Category/6/external-courses">Външни курсове</a></li>
+            <li><a href="/Forum/Category/4/uncategorized">Други</a></li>
+            <li><a href="/Forum/Category/7/архив">Архив</a></li>
+        </ul>
+        <ul id="dropdown-help" class="dropdown-content">
+            <li><a href="http://telerikacademy.com/Files/22f12c2e-c836-4707-96c0-3ab0e3541a29.pdf">Условия и правила за участие в Академията на Телерик</a></li>
+            <li><a href="/FeedbackReport">Обратна връзка</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="/Pages/1/Как%20да%20кандидатствате%20за%20Софтуерната%20академия%20на%20Телерик">Как се кандидатства за Софтуерната<br class="mobile" /> Академия?</a></li>
+            <li><a href="/Pages/2/Как%20да%20запишете%20онлайн%20курс%20в%20Студентската%20система%20на%20Телерик">Как да запиша онлайн курс в<br class="mobile" /> студентската система?</a></li>
+            <li><a href="/Pages/22/Как%20да%20изпратя%20домашно%20в%20студентската%20система%20на%20Telerik%20Academy?">Как да изпратя домашна работа в<br class="mobile" /> студентската система?</a></li>
+            <li><a href="/Pages/21/Как%20да%20запишем%20група%20за%20курса,%20който%20сме%20си%20избрали?">Как да запишем група за курса,<br class="mobile" />който сме си избрали?</a></li>
+            <li><a href="/Pages/20/Как%20да%20запишем%20тест%20или%20практически%20изпит?" class="k-link">Как да запишем тест <br class="mobile" />или практически изпит?</a></li>
+            <li><a href="/Pages/23/Как да кандидатствате за сертификат?">Как да кандидатстваме за сертификат?</a></li>
+            <li><a href="#">Как да кандидатстваме за сертификат?</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="http://academy.telerik.com/">Уебсайт на академията на Телерик</a></li>
+            <li><a href="http://bgcoder.com/">BGCoder Judge System</a></li>
+            <li><a href="https://github.com/TelerikAcademy/Common/raw/master/Telerik-Academy-TestSystem/Telerik-Academy-TestSystem.1.1.zip">Тестова система</a></li>
+            <li><a href="http://downloads.academy.telerik.com/svn/public/AntiCheatClient/Telerik-Academy-AntiCheat.zip">AntiCheat приложение</a></li>            
+        </ul>
+    </header>
+</div>
+</body>
+</html>
