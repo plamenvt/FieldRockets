@@ -1,0 +1,24 @@
+/* nav styles */
+
+#nav-heading {
+    height: 80px;
+}
+
+#logo {
+    max-width: 18%;
+    max-height: 18%;
+}
+
+header ul li a{
+    font-size: small;
+}
+
+#dropdown-forum,
+#dropdown-help {
+    width: 20vw !important;
+}
+
+.dropdown-content li a{
+    color: gray;
+    font-size: small;
+}

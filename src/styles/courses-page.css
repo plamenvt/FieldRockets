@@ -1,0 +1,53 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+#page-heading .card-panel{
+    margin: 0 auto;
+    padding: 1vh 0;
+    text-align: center;
+}
+
+.link:hover {
+    color: red;
+}
+
+.link {
+    color: #43A4B9
+}
+
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 90%;
+    margin: 5%;
+}
+
+.card.large:hover{
+    background-color: #CFD2D3
+}
+
+.btn {
+    padding: 0 1rem;
+}
+
+.btn:hover, .btn-flat:hover {
+    color: white;
+}
+
+@media only screen and (min-width: 768px) {
+    .card {
+        width: 44%;
+        margin: 3%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .card {
+        width: 29%;
+        margin: 2%;
+    }
+}

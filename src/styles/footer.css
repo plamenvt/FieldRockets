@@ -1,0 +1,60 @@
+/* Footer`s styles */
+
+h5{
+    font-size: 1.3rem;
+}
+
+h5 > a, li > a {
+    color:#43A4B9;
+}
+
+footer h5 > a:hover, footer li > a:hover {
+    color: red;
+}
+
+.footer-copyright {
+    font-size: 11px;
+    height: 130px !important;
+    line-height: 30px !important;
+
+}
+
+#footer-logo{
+    max-height: 10vh;
+}
+
+.logos {
+    display: inline-block;
+    margin: 3px;
+    background-image: url(http://ui.telerikacademy.com/Content/Images/social-sprite-icons.png);
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    width: 37px;
+    height: 35px;
+}
+
+#logo2 {
+    background-position: 0 175px;
+}
+
+
+#logo3 {
+    background-position: 0 140px;
+}
+
+#logo4 {
+    background-position: 0 105px;
+}
+
+
+#logo5 {
+    background-position: 0 70px;
+}
+
+
+#logo6 {
+    background-position: 0 35px;
+}
