@@ -70,10 +70,15 @@ h5{
 .footer-copyright {
     background-color: black
     !important;
-    font-size: 12px;
+    font-size: 11px;
     height: 130px !important;
     line-height: 30px !important;
     
+}
+
+#footer-logo{
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .logos {
@@ -113,3 +118,20 @@ h5{
 #logo6 {
     background-position: 0 35px; 
 }
+
+/* nav styles */
+  #nav-heading {
+            height: 80px;
+            background-color:darkgray;
+        }
+        #logo {
+            max-width: 18%;
+            max-height: 18%;
+        }
+        header ul li a{
+            font-size: small;
+        }
+        .dropdown-content li a{
+            color: #5CE500;
+            font-size: small;
+            }
