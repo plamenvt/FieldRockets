@@ -1,0 +1,81 @@
+.ta-dark-green {
+    background-color: #00AA7D;
+}
+
+.ta-dark-green:hover {
+    background-color: #00AA7D;
+    opacity: 0.8;
+}
+
+.ta-light-green {
+    background-color: #85BC5C;
+}
+
+.ta-light-green:hover {
+    background-color: #85BC5C;
+    opacity: 0.8;
+}
+
+.ta-light-blue {
+    background-color: #2CA6BB;
+}
+
+.ta-light-blue:hover {
+    background-color: #2CA6BB;
+    opacity: 0.8;
+}
+
+.ta-dark-blue {
+    background-color: #0D496B;
+}
+
+.ta-dark-blue:hover {
+    background-color: #0D496B;
+    opacity: 0.8;
+}
+
+.ta-light-purple {
+    background-color: #7B709D;
+}
+
+.ta-light-purple:hover {
+    background-color: #7B709D;
+    opacity: 0.8;
+}
+
+.ta-dark-purple {
+    background-color: #474155;
+}
+
+.ta-dark-purple:hover {
+    background-color: #474155;
+    opacity: 0.8;
+}
+
+.ta-btn-red {
+    background-color: #E14209;
+}
+
+.ta-btn-red:hover {
+    background-color: #E14209;
+    opacity: 0.8;
+}
+
+.ta-btn-blue {
+    background-color: #213751;
+}
+
+.ta-btn-blue:hover {
+    background-color: #213751;
+    opacity: 0.8;
+}
+
+.ta-btn-ghost {
+    background-color: #FFF;
+    border: 1px solid #C2C7CF;
+    color: #111;
+}
+
+.ta-btn-ghost:hover {
+    background-color: #EEE;
+}
