@@ -1,0 +1,36 @@
+.card {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card.horizontal .card-image {
+    width: 100%;
+    max-width: 100%;
+}
+
+.card td {
+    border: 1px solid lightgray;
+}
+
+.badge {
+    width: 10em;
+}
+
+thead {
+    color: white;
+}
+
+th {
+    border-radius: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .card.horizontal .card-image {
+        width: 40%;
+        max-width: 40%;
+    }
+
+    .materials table th {
+        height: 80px !important;
+    }
+}
