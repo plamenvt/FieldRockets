@@ -13,6 +13,7 @@ footer h5 > a:hover, footer li > a:hover {
 }
 
 .footer-copyright {
+    display: flex;
     font-size: 11px;
     height: 130px !important;
     line-height: 30px !important;
@@ -21,6 +22,10 @@ footer h5 > a:hover, footer li > a:hover {
 
 #footer-logo{
     max-height: 10vh;
+}
+
+footer i {
+    color: white;
 }
 
 .logos {
@@ -57,4 +62,10 @@ footer h5 > a:hover, footer li > a:hover {
 
 #logo6 {
     background-position: 0 35px;
+}
+
+@media only screen and (min-width: 980px) {
+    footer .footer-copyright .button-collapse {
+        display: none;
+    }
 }
