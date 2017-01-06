@@ -17,7 +17,7 @@ Create UX and Design of a part of [Telerik Academy page](http://ui.telerikacadem
 ## Demo
 
   - [Courses list page](http://htmlpreview.github.io/?https://github.com/plamenvt/FieldRockets/blob/master/src/courses.html)
-  - [Course Details page](https://github.com/plamenvt/FieldRockets/blob/master/src/course-details.html)
+  - [Course Details page](http://htmlpreview.github.io/?https://github.com/plamenvt/FieldRockets/blob/master/src/course-details.html)
   
 ## Credits
 
